@@ -1,0 +1,17 @@
+{
+  "name": "demo-rtmp-streaming",
+  "version": "1.0.0",
+  "description": "Streams an RTMP feed to Momento MediaStore",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Momento, Inc",
+  "license": "ISC",
+  "dependencies": {
+    "@gomomento/sdk": "^1.99.0",
+    "express": "^4.21.1",
+    "fluent-ffmpeg": "^2.1.3"
+  }
+}
